@@ -9,6 +9,7 @@
 2. [Descripción](#descripcion-del-proyecto)
 3. [Prototipo](#prototipo)
 4. [Analisis y Conclusiones](#analisis)
+4. 
 5. [Estructura](#estructura)
 
 
@@ -49,7 +50,9 @@ Para tal efecto, definimos los siguientes KPIs como objetivo:
 </p>
 
 
-Los cambios fueron: filtro desplegable para que el usuario visualice directamente las opciones, opción de pagar ya directamente en el thumbnail de los productos en el landing. Antes tenian que entrar dentro del product page antes de que apareciese la opción. De igual manera el esquema de color entre el botón de cesta era color rojo y el pagar ya estaba con fondo blanco y letras en negro. Por lo tanto el cliente iba directo a agregar a cesta en vez del checkout, agregando un click adicional 
+Los cambios fueron: filtro desplegable para que el usuario visualice directamente las opciones, opción de pagar ya directamente en el thumbnail de los productos en el landing. Antes tenian que entrar dentro del product page antes de que apareciese la opción. De igual manera el esquema de color entre el botón de cesta era color rojo y el pagar ya estaba con fondo blanco y letras en negro. Por lo tanto el cliente iba directo a agregar a cesta en vez del checkout, agregando un click adicional
+
+## Analisis y Conclusiones
 
 Por un lado hemos trabajado con el minimo de clicks que puede realizar un usuario en todo el proceso de una compra.
 
