@@ -46,12 +46,12 @@ Para tal efecto, definimos los siguientes KPIs como objetivo:
 ## Prototipo
 
 <p align="center">
-  <img src="https://github.com/Anton-Utray/CRO/blob/main/IMG/cambios%20web.png" alt="Cambios" width="500">
+  <img src="https://github.com/Anton-Utray/CRO/blob/main/IMG/cambios%20web.png" alt="Cambios" width="800">
 </p>
 
 
 Los cambios fueron: filtro desplegable para que el usuario visualice directamente las opciones, opción de pagar ya directamente en el thumbnail de los productos en el landing. Antes tenian que entrar dentro del product page antes de que apareciese la opción. De igual manera el esquema de color entre el botón de cesta era color rojo y el pagar ya estaba con fondo blanco y letras en negro. Por lo tanto el cliente iba directo a agregar a cesta en vez del checkout, agregando un click adicional 
-  
+
 Por un lado hemos trabajado con el minimo de clicks que puede realizar un usuario en todo el proceso de una compra.
 
 - En la primera pagina el minimo es de 13, pero por ciertos metodos de construccion tendia a 18 y el tiempo promedio era de 1:30 min
