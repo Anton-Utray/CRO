@@ -66,27 +66,30 @@ Para poder reducir el numero de clicks y reducir el tiempo dedicado al proceso d
 
 ## Analisis y Conclusiones
 
-Comparando los resultados de ambos trabajos de campo:
+A continuación se presentan los resultados de ambos trabajos de campo:
 
-- En la primera pagina el minimo de click es de 13, pero por ciertos metodos de construccion tendia a 18 y el tiempo promedio era de 1:30.
+- En la primera muestra el minimo de clicks es de 13, pero por ciertos metodos de construccion tendia a 18 y el tiempo promedio era de 1:30.
 - En la segunda pagina el minimo de clicks es de 10, y este en la reconstruccion tiende hasta 14 y el tiempo promedio es de 50 seg. 
 
 </div>
 <div align="center">
-  Aqui el grafico de como queda al final para cada uno:
+  Dispersión de valores de clicks y tiempo para ambas muestras
   
   ![image](https://github.com/joeSL-ms/proye/assets/127346073/590e48b6-dd3b-41df-91ee-e3502f26c00b)
   
-  Aqui el grafico de las medias para cada estudio:
+  Medias de cada muestra
   
   ![image](https://github.com/joeSL-ms/proye/assets/127346073/cded53a4-8422-4531-aa3e-045fce8bffe9)
 </div>
 <div>
-  Como podemos observar a ojo hay una cierta diferencia, pero vamos a llevarlo mas lejos y confirmar cuanta probabilidad hay para cada caso.
+
+  Los graficos de arriba nos muestran claramente las mejoras entre los prototipos. Sin embargo, para asegurar una mayor fiabilidad en los resultados, realizamos un modelo bayesiano para comprobar nuestra hipothesis. 
+
+Esta se calcula en función de las tasas de exito de los dos parametros. Es decir, el numero de personas que completan el proceso de compra en 12 clicks o menos y en 1 minuto o menos. 
 
 | Clicks | Tiempo |
 | --------- | --------- |
 | Caso 1 | Caso 2 |
-|  En base a la tasa de click hemos obtenido una mejora de 400.00% con respecto al numero de usuarios que que completaron el checkout en 12 clicks o menos, con una probabilidad del 99.90%. Dando una seguriad de mejoría   | Usando la informacion de tiempo promedio, la mejora en la tasa de exíto (1 minuto o menos) es de un 116.67%, con una probabilidad del 99.43%.   |
+|Se observa una mejora del 400% en la tasa de clicks con probabilidad del 99,90% | Se observa una mejora en la tasa de tiempo de 116,67%  con una probabilidad del 99.43%.  |
 | <div align="center" colspan="2"> ![image](https://github.com/joeSL-ms/proye/assets/127346073/af1933f5-c203-4873-a0b0-5c83badce8a2)</div> | <div align="center"> ![image](https://github.com/joeSL-ms/proye/assets/127346073/284b07c1-bbac-47ee-854a-09749ab21411)</div> |
   </div>
