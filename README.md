@@ -5,28 +5,58 @@
 </p>
 
 
+1. [Objetivo](#objetivo)
+2. [Descripción](#descripcion-del-proyecto)
+3. [Prototipo](#prototipo)
+3. [Análisis](#analisis)
+4. [Conclusiones](#conclusion)
+5. [Estructura](#estructura)
+
+
 ## Objetivo
 
-proyecto de optimización de click rate de una pagina web. En conjunto con el bootcamp de UX/UI. 
+Proyecto colaborativo con el bootcamp UX/UI donde el objetivo es optimizar la tasa de conversión de un ecommerce a través de una versión control (original) y una de testeo (con cambios) para analizar y comparar el rendimento entre ambas versiones. 
+
+Flujo de trabajo:
+
+ - UX/UI presenta el prototipo de su pagina web al equipo de data. En nuestro caso se trata de una pagina web de venta de libros Altamerea. 
+ - Data salimos a recopilar datos de uso, preguntando a voluntarios de probar el prototipo. 
+    - Se pregunta a los voluntarios: 
+        - Buscar los libros de la categoria femenina
+        - Dentro de la categoria femenina encontrar los que corresponden a tapa dura
+        - Encontrar el libro de Michelle Obama y completar el checkout. 
+    - Nos encargamos de medir: el tiempo en realizar diversas acciones.
+    - Clicks totales vs clicks utiles.
+    - Comentarios de tipo general que nos den **feedback** general.
+- Reunion entre ambos equipos para retroalimentar y decidir sobre los cambios a efectuar para la versión control. 
+- Segunda recopilación de datos de campo. 
+- Alimentación de datos al sistema para medir y cuantificar las mejoras. 
+
+**KPIS** 
 
 El objetivo es optimizar la tasa de clicks utiles vs clicks totales en el proceso de compra. De igual manera tenemos como objetivo reducir la media de tiempo para finalizar la compra. 
 
-## Versiones 
+Para tal efecto, definimos los siguientes KPIs como objetivo:
+
+ - Tasa de clicks para realizar compra: 12
+ - Tiempo para realizar checkout: 1 minuto. 
+
+ Estos KPIS luego nos van a servir a la hora de categorizar los resultados (True/False) para efectuar un modelo bayesiano. 
+
+## Prototipo
+
+<p align="center">
+  <img src="https://github.com/Anton-Utray/CRO/blob/main/IMG/cambios%20web.png" alt="Cambios" width="500">
+</p>
 
 
-<h1>Pagina web: Libreria</h1>
-
-<div>
-
-  Este estudio esta dedicado a la eficiencia y facilidad para la busqueda de libros asi como el acceso para todo tipo de publicos siendo una pagina web intuitiva.
-  Es un proyecto de una pagina web. En conjunto con el bootcamp de UX/UI.
-  El objetivo es optimizar la tasa de clicks totales e utiles en el proceso de compra. De igual manera tenemos como objetivo reducir la media de tiempo para finalizar la compra.
+Los cambios fueron: filtro desplegable para que el usuario visualice directamente las opciones, opción de pagar ya directamente en el thumbnail de los productos en el landing. Antes tenian que entrar dentro del product page antes de que apareciese la opción. De igual manera el esquema de color entre el botón de cesta era color rojo y el pagar ya estaba con fondo blanco y letras en negro. Por lo tanto el cliente iba directo a agregar a cesta en vez del checkout, agregando un click adicional 
   
-  Por un lado hemos trabajado con el minimo de clicks que puede realizar un usuario en todo el proceso de una compra.
-  <ul>
-    <li>En la primera pagina el minimo es de 13, pero por ciertos metodos de construccion tendia a 18 y el tiempo promedio era de 1:30 min</li>
-    <li>En la segunda pagina el minimo es de 10, y este en la reconstruccion tiende hasta 14 y el tiempo promedio es de 50 seg </li>
-  </ul>
+Por un lado hemos trabajado con el minimo de clicks que puede realizar un usuario en todo el proceso de una compra.
+
+- En la primera pagina el minimo es de 13, pero por ciertos metodos de construccion tendia a 18 y el tiempo promedio era de 1:30 min
+- En la segunda pagina el minimo es de 10, y este en la reconstruccion tiende hasta 14 y el tiempo promedio es de 50 seg 
+
 </div>
 <div align="center">
   Aqui el grafico de como queda al final para cada uno:
