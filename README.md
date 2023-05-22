@@ -9,8 +9,6 @@
 2. [Descripción](#descripcion-del-proyecto)
 3. [Prototipo](#prototipo)
 4. [Analisis y Conclusiones](#analisis)
-4. 
-5. [Estructura](#estructura)
 
 
 ## Objetivo
