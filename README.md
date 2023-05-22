@@ -8,8 +8,7 @@
 1. [Objetivo](#objetivo)
 2. [Descripción](#descripcion-del-proyecto)
 3. [Prototipo](#prototipo)
-3. [Análisis](#analisis)
-4. [Conclusiones](#conclusion)
+4. [Analisis y Conclusiones](#analisis)
 5. [Estructura](#estructura)
 
 
