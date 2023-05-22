@@ -26,7 +26,7 @@ El objetivo es optimizar la tasa de clicks utiles vs clicks totales en el proces
 <div align="center">
   Aqui el grafico de como queda al final para cada uno:
   
-  ![image](https://github.com/joeSL-ms/proye/assets/127346073/b4a5d17c-9b59-4831-bc82-f34fc70fc400)
+  ![image](https://github.com/joeSL-ms/proye/assets/127346073/590e48b6-dd3b-41df-91ee-e3502f26c00b)
   
   Aqui el grafico de las medias para cada estudio:
   
