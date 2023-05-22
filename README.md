@@ -1,5 +1,10 @@
 # CRO
 
+<p align="center">
+  <img src="https://github.com/Anton-Utray/CRO/blob/main/IMG/Portada-CRO.jpg" alt="Portada" width="500">
+</p>
+
+
 ## Objetivo
 
 proyecto de optimización de click rate de una pagina web. En conjunto con el bootcamp de UX/UI. 
