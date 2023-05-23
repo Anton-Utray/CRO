@@ -7,9 +7,7 @@
 
 1. [Objetivo](#objetivo)
 2. [Prototipo](#prototipo)
-3. [Analisis y Conclusiones](#analisis)
-
-
+3. [Analisis y Conclusiones](#analisis-y-conclusiones)
 
 ## Objetivo
 
@@ -62,7 +60,6 @@ Para poder reducir el numero de clicks y reducir el tiempo dedicado al proceso d
   - Filtro desplegaod por *default* para que el usuario pueda visualizar directamente las opciones.
   - Opción de 'pagar ya' incluida en los *thumbnail* de los productos del landing page. (Antes el usuario tenia que ingresar al Product Page).
   - El esquema de color favoriza visualmente al botón de 'pagar ya'. Anteriormente estaba destacada la opción de 'agregar a cesta' y añadía un click adicional.
-
 
 ## Analisis y Conclusiones
 
